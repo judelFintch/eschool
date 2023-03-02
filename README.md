@@ -1,5 +1,5 @@
 # eschool
-Fonctionnalités
+#Fonctionnalités
 L'application offrira les fonctionnalités suivantes :
 
 Inscription en ligne pour les étudiants
@@ -15,7 +15,8 @@ Installez les dépendances à l'aide de la commande pip install -r requirements.
 Créez la base de données en utilisant la commande python manage.py migrate
 Créez un compte administrateur en utilisant la commande python manage.py createsuperuser
 Lancez le serveur en utilisant la commande python manage.py runserver
-Utilisation
+
+#Utilisation
 Après avoir lancé le serveur, vous pouvez accéder à l'application à l'adresse http://localhost:8000.
 Vous pouvez utiliser le compte administrateur que vous avez créé pour accéder à l'interface d'administration à l'adresse http://localhost:8000/admin.
 À partir de là, vous pouvez ajouter des cours, des enseignants, des étudiants et gérer les inscriptions.
