@@ -8,7 +8,9 @@ Suivi des progrès de l'étudiant dans les cours
 Prise en charge de plusieurs cours et enseignants
 Génération de rapports d'étudiants et de cours
 Possibilité de mettre en ligne des ressources pédagogiques pour les étudiants
-Installation
+
+#Installation
+
 Clonez le projet à partir du repository GitHub
 Installez votre environnement à l'aide de la commande python -m venv env
 Installez les dépendances à l'aide de la commande pip install -r requirements.txt
