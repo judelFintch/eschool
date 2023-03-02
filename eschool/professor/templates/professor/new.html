@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Django Project</title>
-    </head>
+{% extends 'professor/base.html' %}
 
-    <body>
+{% block content %}
         <h1>Django Project </h1>
 
         {% for prof in professors %}
           <li>{{ prof.second_name }}</li>
         {%endfor %}
-    </body>
 
-    
-</html>
+{% endblock %}
+  
