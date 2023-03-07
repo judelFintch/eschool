@@ -15,17 +15,22 @@
     <script src="{%  static 'js/config.js' %}"></script>
 </head>
 <body>
-    {% block content %} {% endblock %}
+  <div class="layout-wrapper layout-content-navbar">
+ 
+      <!-- Layout wrapper -->
+        {% block content %} {% endblock %}
+        {% include 'component/nav/footer.html' %}
+    </div>
+      <!-- / Layout wrapper -->
    <!-- Core JS -->
+
     <!-- build:js assets/vendor/js/core.js -->
     <script src="{%  static 'libs/jquery/jquery.js' %}"></script>
     <script src="{%  static 'libs/popper/popper.js' %}"></script>
     <script src="{%  static 'js/bootstrap.js' %}"></script>
     <script src="{%  static 'libs/perfect-scrollbar/perfect-scrollbar.js' %}"></script>
-
     <script src="{%  static 'js/menu.js' %}"></script>
     <!-- endbuild -->
-
     <!-- Vendors JS -->
     <script src="{%  static 'libs/apex-charts/apexcharts.js' %}"></script>
     <!-- Main JS -->
@@ -34,5 +39,9 @@
     <script src="{%  static 'js/dashboards-analytics.js' %}"></script>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+     <!-- Page JS -->
+     <script src="{%  static ' js/dashboards-analytics.js' %}"></script>
+  
+     
 </body>
 </html>
